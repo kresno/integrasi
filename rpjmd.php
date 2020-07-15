@@ -40,6 +40,8 @@ while($dataVs = mysqli_fetch_array($queryVisi)){
                 $d['indikator'] = array();
                 $d['program'] = array();
 
+                $sqlProgram = "SELECT a.id as kode_program FROM program a JOIN bidang_urusan b ON a.bidang_urusan_id=b.is";
+
                 array_push($c['sasaran'], $d);
             }
             array_push($b['tujuan'], $c);

@@ -1,0 +1,21 @@
+{
+    "kodepemda": "9100",
+    "data": [
+        {
+            "kodebidang": "1.01",
+            "kodeprogram": "1.01-001",
+            "kodekegiatan": "1.01-001.0001",
+            "uraikegiatan": "Penyediaan jasa surat menyurat",
+            "mapping": [
+                "X.XX.01.1.03.01"
+            ]
+        },
+        {
+            "kodebidang": "1.01",
+            "kodeprogram": "1.01-001",
+            "kodekegiatan": "1.01-001.0002",
+            "uraikegiatan": "Penyediaan jasa komunikasi, sumber daya air dan listrik",
+            "mapping": null
+        }
+    ]
+}  
