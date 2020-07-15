@@ -1,0 +1,96 @@
+// json push Renstra
+
+
+  [
+ {
+     "kodepemda": "9100",
+     "tahunmulai": "2019",
+     "tahunselesai": "2023",
+     "kodebidang": "2.17",
+     "uraibidang": "Perpustakaan",
+     "kodeskpd": "1.01.0101",
+     "uraiskpd": "Dinas perpustakaan",
+     "pejabat": {
+         "kepalanip": "",
+         "kepalanama": "",
+         "kepalajabatan": "",
+         "kepalapangkat": ""
+     },
+     "pilihanbidang": [
+         "2.17"
+     ],
+     "uraiurusan": "Urusan Wajib Pelayanan Dasar",
+     "program": [
+         {
+             "kodebidang": "2.17",
+             "kodeprogram": "22",
+             "uraiprogram": "PENINGKATAN SARANA DAN PRASARANA PERPUSTAKAAN",
+             "indikator": [
+               {
+                 "kodeindikator": "1",
+                 "uraiindikator": "Cakupan kabupaten/kota yang memiliki sarana dan prasarana perpustakaan yang berkualitas",
+                 "satuan": "jumlah",
+                 "status": "positif",
+                 "volume_n1": "17.00",
+                 "volume_n2": "19.00",
+                 "volume_n3": "21.00",
+                 "volume_n4": "23.00",
+                 "volume_n5": "26.00",
+                 "pagu_n1": "1000000",
+                 "pagu_n2": "1200000",
+                 "pagu_n3": "1100000",
+                 "pagu_n4": "1400000",
+                 "pagu_n5": "1500000"
+               }
+             ],
+             "kegiatan": [
+                 {
+                     "kodekegiatan": "1.01-0001.0001",
+                     "uraikegiatan": "Penyediaan jasa surat menyurat",
+                     "lokasi": "Kantor lokasi ABC ",
+                     "indikator": [
+                         {
+                             "kodeindikator": "1",
+                             "tolokukur": "Jumlah surat yang disediakan",
+                             "satuan": "Surat",
+                             "volume_n1": "17.00",
+                             "volume_n2": "19.00",
+                             "volume_n3": "21.00",
+                             "volume_n4": "23.00",
+                             "volume_n5": "26.00",
+                             "pagu_n1": "1000000",
+                             "pagu_n2": "1200000",
+                             "pagu_n3": "1100000",
+                             "pagu_n4": "1400000",
+                             "pagu_n5": "1500000"
+                         }
+                     ],
+                     "subkegiatan": [
+                        {
+                          "kodesubkegiatan": "1.01-01.01.01",
+                          "uraisubkegiatan": "Penyediaan Jasa Surat Menyurat 2",
+                          "lokasi": "Kantor lokasi DEF ",
+                          "indikator": [
+                               {
+                                   "kodeindikator": "1",
+                                   "tolokukur": "Jumlah surat yang disediakan 2",
+                                   "satuan": "Surat",
+                                   "volume_n1": "17.00",
+                                   "volume_n2": "19.00",
+                                   "volume_n3": "21.00",
+                                   "volume_n4": "23.00",
+                                   "volume_n5": "26.00",
+                                   "pagu_n1": "1000000",
+                                   "pagu_n2": "1200000",
+                                   "pagu_n3": "1100000",
+                                   "pagu_n4": "1400000",
+                                   "pagu_n5": "1500000"
+                               }
+                            ]
+                        }
+                     ]
+                 }
+             ]
+         }
+     ]
+ }]  

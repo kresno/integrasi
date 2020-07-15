@@ -1,0 +1,144 @@
+// json push rancangan
+
+  [
+    {
+        "kodepemda": "9100",
+        "tahun": "2019",
+        "kodebidang": "1.01",
+        "uraibidang": "Pendidikan",
+        "kodeskpd": "1.01.0101",
+        "uraiskpd": "Dinas Pendidikan",
+        "pejabat": {
+            "kepalanip": "",
+            "kepalanama": "",
+            "kepalajabatan": "",
+            "kepalapangkat": ""
+        },
+        "pilihanbidang": [
+            "1.01"
+        ],
+        "uraiurusan": "Urusan Wajib Pelayanan Dasar",
+        "program": [
+            {
+                "kodebidang": "1.01",
+                "uraibidang": "Pendidikan",
+                "kodeprogram": "1.01-0001",
+                "uraiprogram": "Program Pelayanan Administrasi Perkantoran",
+                "prioritas": [],
+                "capaian": [
+                    {
+                        "kodeindikator": "1",
+                        "tolokukur": "Jumlah unit kerja OPD yang terlayani",
+                        "satuan": "Unit",
+                        "real_p3": "1500",
+                        "pagu_p3": "0",
+                        "real_p2": "1500",
+                        "pagu_p2": "0",
+                        "real_p1": "1500",
+                        "pagu_p1": "0",
+                        "target": "1500",
+                        "pagu": "0.00",
+                        "pagu_p": "0",
+                        "target_n1": "1500",
+                        "pagu_n1": "0"
+                    }
+                ],
+                "kegiatan": [
+                    {
+                        "kodekegiatan": "1.01-0001.0001",
+                        "uraikegiatan": "Penyediaan jasa surat menyurat",
+                        "pagu": "700000000.00",
+                        "pagu_p": null,
+                        "sumberdana": [
+                            {
+                              "pagu": 500000000,
+                              "sumberdana": "DAU",
+                              "kodesumberdana": 1
+                            },
+                            {
+                              "pagu": 200000000,
+                              "sumberdana": "DAK",
+                              "kodesumberdana": 2
+                            }
+                        ],
+                        "prioritas": [
+                            {
+                                "prioritasnasional": "Prioritas Nasional"
+                            },
+                            {
+                                "prioritasprovinsi": "Meningkatkan indeks provinsi"
+                            },
+                            {
+                                "prioritasdaerah": "Meningkatkan kesejahteraan rakyat"
+                            },
+                            {
+                                "prioritasdaerah": "Pemantapan tata kelola pemerintahan"
+                            }
+                        ],
+                        "lokasi": [
+                            {
+                                "lokasi": "Kota Jayapura",
+                                "kodelokasi": "91.71",
+                                "detaillokasi": ""
+                            },
+                            {
+                                "kodelokasi": "",
+                                "lokasi": "New York",
+                                "detaillokasi": ""
+                            }
+                        ],
+                        "indikator": [
+                            {
+                                "kodeindikator": "1",
+                                "jenis": "KELUARAN",
+                                "tolokukur": "Jumlah surat yang disediakan",
+                                "satuan": "Surat",
+                                "real_p3": "1000",
+                                "pagu_p3": "0",
+                                "real_p2": "1000",
+                                "pagu_p2": "0",
+                                "real_p1": "1000",
+                                "pagu_p1": "0",
+                                "target": "1000",
+                                "pagu": "700000000.00",
+                                "pagu_p": "0",
+                                "target_n1": "4000",
+                                "pagu_n1": "0"
+                            }
+                        ],
+                        "subkegiatan": [
+                           {
+                             "kodesubkegiatan": "1.01-01.01.01",
+                             "uraisubkegiatan": "Penyediaan Jasa Surat Menyurat",
+                             "pagu": "700000000.00",
+                             "pagu_p": null,
+                             "sumberdana": [],
+                             "prioritas": [],
+                             "lokasi": [],
+                             "indikator": [
+                                  {
+                                   "kodeindikator": "1",
+                                   "jenis": "KELUARAN",
+                                   "tolokukur": "Jumlah surat yang disediakan",
+                                   "satuan": "Surat",
+                                   "real_p3": "1000",
+                                   "pagu_p3": "0",
+                                   "real_p2": "1000",
+                                   "pagu_p2": "0",
+                                   "real_p1": "1000",
+                                   "pagu_p1": "0",
+                                   "target": "1000",
+                                   "pagu": "700000000.00",
+                                   "pagu_p": "0",
+                                   "target_n1": "4000",
+                                   "pagu_n1": "0"
+                                }
+                               ]
+                           }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]  

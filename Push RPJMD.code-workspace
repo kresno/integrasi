@@ -1,0 +1,109 @@
+// json push RPJMD
+
+ {
+"kodepemda": "9100",
+"tahunmulai": "2019",
+"tahunselesai": "2023",
+"periode_rpjmd": "2018-2023",
+"uraivisi": "Papua Bangkit, Mandiri dan Sejahtera yang Berkeadilan ",
+"misi": [{
+  "kodemisi": "1",
+  "uraimisi": "Memantapkan Kualitas dan Daya Saing SDM",
+  "tujuan": [{
+      "kodetujuan": "1",
+      "uraitujuan": "Meningkatkan Kualitas SDM  yang berdaya saing",
+      "indikator": [{
+          "kodeindikator": "1",
+          "uraiindikator": "Indeks Pembangunan Manusia",
+          "satuan": "Nilai Indeks",
+          "status": "komulatif",
+          "target_t1": "59.09",
+          "target_t2": "61.13",
+          "target_t3": "62.27",
+          "target_t4": "63.35",
+          "target_t5": "64.39",
+          "target_t6": "65.47",
+          "target_t7": "0.00"
+        },
+        {
+          "kodeindikator": "4",
+          "uraiindikator": "Persentase Potensi Budaya Lokal yang Dilestarikan",
+          "satuan": "%",
+          "status": "negatif",
+          "target_t1": 15.00,
+          "target_t2": "40.00",
+          "target_t3": "45.00",
+          "target_t4": "50.00",
+          "target_t5": "55.00",
+          "target_t6": "60.00",
+          "target_t7": "0.00"
+        }
+      ],
+      "sasaran": [{
+          "kodesasaran": "1",
+          "uraisasaran": "Meningkatnya Aksesibiltas, Mutu dan Tatakelola Penyelenggaraan Pendidikan",
+          "indikator": [{
+              "kodeindikator": "1",
+              "uraiindikator": "Rata-rata Lama Sekolah (RLS)",
+              "satuan": "Tahun",
+              "status": "komulatif",
+              "target_t1": "6.27",
+              "target_t2": "6.86",
+              "target_t3": "7.17",
+              "target_t4": "7.50",
+              "target_t5": "7.85",
+              "target_t6": "8.21",
+              "target_t7": "0.00"
+            },
+            {
+              "kodeindikator": "1",
+              "uraiindikator": "Kemampuan membaca, menulis, dan berhitung untuk kelas 2 dan 3",
+              "satuan": "Persen",
+              "status": "positif",
+              "target_t1": "40.00",
+              "target_t2": "45.79",
+              "target_t3": "48.99",
+              "target_t4": "52.41",
+              "target_t5": "56.08",
+              "target_t6": "60.00",
+              "target_t7": "0.00"
+            }
+          ],
+          "program": [{
+            "kodebidang": "2.17",
+            "uraibidang": "Bidang Perpustakaan",
+            "kodeprogram": "22",
+            "uraiprogram": "PENINGKATAN SARANA DAN PRASARANA PERPUSTAKAAN",
+            "indikator": [
+              {"kodeindikator": "1",
+              "uraiindikator": "Cakupan kabupaten/kota yang memiliki sarana dan prasarana perpustakaan yang berkualitas",
+              "satuan": "jumlah",
+              "status": "komulatif",
+              "kondisi_awal": "15.00",
+              "kondisi_akhir": "15.00",
+              "pagu_kinerja_akhir": "1900000",
+              "volume_n1": "17.00",
+              "volume_n2": "19.00",
+              "volume_n3": "21.00",
+              "volume_n4": "23.00",
+              "volume_n5": "26.00",
+              "volume_n6": "26.00",
+              "volume_n7": "0.00",
+              "pagu_n1": "1000000",
+              "pagu_n2": "1200000",
+              "pagu_n3": "1100000",
+              "pagu_n4": "1400000",
+              "pagu_n5": "1500000",
+              "pagu_n6": "1600000",
+              "pagu_n7": "1700000"
+              }
+            ]
+          }]
+        }
+
+      ]
+    }
+
+  ]
+}
+]}  
