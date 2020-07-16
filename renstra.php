@@ -50,15 +50,34 @@ while($dataSKPD = mysqli_fetch_array($querySKPD)){
         array_push($a['pilihanbidang'], $c);
     }
 
-    $sqlProgram = "SELECT id, kode, nama FROM program WHERE bidang_urusan_id='".$dataSKPD['bidang_urusan_id']."'";
-    $queryPorgram = mysqli_query($connection, $sqlProgram);
+    $sqlProgram = "SELECT id, kode, nama, indikator_program_id FROM program WHERE bidang_urusan_id='".$dataSKPD['bidang_urusan_id']."'";
+    $queryProgram = mysqli_query($connection, $sqlProgram);
 
-    while($dataProgram = mysqli_fetch_array($queryPorgram)){
+    while($dataProgram = mysqli_fetch_array($queryProgram)){
         $d['kodebidang'] = $dataSKPD['bidang_urusan_kode'];
         $d['kodeprogram'] = $dataProgram['kode'];
         $d['uraiprogram'] = $dataProgram['nama'];
         $d['indikator'] = array();
+        $d['kegiatan'] = array();
 
+        $sqlDataIP = 
+        "SELECT e.id as indikator_id, e.nama as indikator_nama, e.target as indikator_target, e.satuan as indikator_satuan, c.id as kegiatan_id, c.kode as kegiatan_kode, c.nama as kegiatan_nama, a.lokasi as kegiatan_lokasi 
+        FROM anggaran a
+        JOIN opd_kegiatan b ON a.`kegiatan_id`=b.`kegiatan_id`
+        JOIN kegiatan c ON c.`id`=b.`kegiatan_id`
+        JOIN program d ON d.`id`=c.`program_id`
+        JOIN indikator_sasaran e ON c.`indikator_sasaran_id`=e.`id`
+        WHERE b.`opd_id`='".$dataSKPD['opd_id']."'";
+        $queryDataIP = mysqli_query($connection, $sqlDataIP);
+
+        while($dataIP = mysqli_fetch_array($queryDataIP)){
+            $e['kodeindikator'] = $dataIP['indikator_id'];
+            $e['uraiindikator'] = $dataIP['indikator_nama'];
+            $e['target'] = $dataIP['indikator_target'];
+            $e['satuan'] = $dataIP['indikator_satuan'];
+
+            array_push($d['indikator'], $e);
+        }
         array_push($a['program'], $d);
     }
 
